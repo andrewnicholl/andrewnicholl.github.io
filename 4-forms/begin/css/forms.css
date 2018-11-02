@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/galaxy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: rgba(53, 53, 43, 0.4);
+}
+
+p, [for="abtype"] {
+    margin: 2rem 0 0 0;
+}
+
+h1{
+  font-family: 'Oswald';
+  font-size: 2.325rem;
+  margin: 0;
+}
+h2{
+  font-family: 'Lato';
+  font-weight: 800;
+  font-size: 1rem;
+  margin: 0.5rem 0 2rem 0;
+  letter-spacing: .0125rem;
+}
+
+fieldset {
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(53, 53, 43, 0.2);
+  margin: 1rem 0 1rem 0;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 1.5rem 0 1rem 0;
+  display: block;
+}
+
+section {
+    flex-basis: 57%;
+    margin-right: 10%;
+}
+aside {
+    flex-basis: 33%;
+}
+
+label {
+  display: block;
+  padding: 0.3rem 0;
+}
+
+ul {
+  padding-inline-start: 0%;
+}
+
+textarea {
+  height: 10rem;
+  padding: 1rem;
+}
+
+select {
+  font-size: 1rem;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  margin: 2rem 0;
+  padding: 0.5rem 1rem;
+  background-color: #FF4C54;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7F4447;
+  box-shadow: 0px 20px 64px #000000;
+}
+
+input:not([type="radio"]):not([type="radio"]), textarea, select {
+  display: block;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  width: 20rem;
+  margin-bottom: 2rem;
+  padding: .5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+}

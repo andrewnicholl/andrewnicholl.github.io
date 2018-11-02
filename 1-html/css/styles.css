@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffcc;
+}
+
+img {
+  border: 10px solid green;
+}
+
+h1 {
+  border: 5px dotted pink;
+}
+
+blockquote {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  font-style: italic;
+  text-align: center;
+}
+
+cite {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+}
+
+.bigbold {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul a:link {
+  font-size: 1rem;
+  color: orange;
+  text-decoration: none;
+}
+
+ul a:hover {
+  font-size: 1rem;
+  color: blue;
+  text-decoration: none;
+}
+
+ul a:visited {
+  color: orange;
+}
+
+ul a.chapter:link {
+  color: maroon;
+}

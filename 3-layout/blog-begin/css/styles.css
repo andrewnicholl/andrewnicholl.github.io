@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 10%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.leftheader {
+  padding: 0 24px;
+}
+
+.rightheader {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.rightheader h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: hotpink;
+}
+
+.rightheader p {
+  margin: 0;
+}
+
+nav {
+  border-top: 1px solid red;
+  border-bottom: 1px solid maroon;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+nav li {
+  display: flex;
+  flex-basis: 6rem;
+  justify-content: center;
+  border: 1px solid maroon;
+  margin: 0 24px;
+}
